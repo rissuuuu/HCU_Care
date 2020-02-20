@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168216321177",
+    "firebase_url": "https://hcucare.firebaseio.com",
+    "project_id": "hcucare",
+    "storage_bucket": "hcucare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168216321177:android:e0c29c5cc14679c0d3ec08",
+        "android_client_info": {
+          "package_name": "com.example.hcucare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168216321177-3rggh21o40gaq7k80qq318pub85uj0c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAWYQj7Q21IkU5gnAMuLdf7EwjFcXrWho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168216321177-3rggh21o40gaq7k80qq318pub85uj0c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
