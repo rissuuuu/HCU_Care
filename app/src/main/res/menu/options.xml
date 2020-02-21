@@ -7,5 +7,20 @@
         <item android:id="@+id/id_changepw"
             android:title="Change Password"
             app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_viewstatus"
+            android:title="View Status"
+            app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_History"
+            android:title="View History"
+            app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_Share"
+            android:title="Share Application"
+            app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_feedback"
+            android:title="Feedbacks"
+            app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_reportbug"
+            android:title="Report Bugs"
+            app:showAsAction="ifRoom" />
 
 </menu>

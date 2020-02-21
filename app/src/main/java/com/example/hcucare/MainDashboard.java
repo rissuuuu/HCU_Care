@@ -20,7 +20,7 @@ public class MainDashboard extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_dashboard);
+        setContentView(R.layout.activity_main_dashboard_hcucare);
         cardView_messages=findViewById(R.id.id_dashboard_messages);
         cardViewnotification=findViewById(R.id.dashboard_notification);
         cardViewnews=findViewById(R.id.dashboard_news);
@@ -35,13 +35,13 @@ public class MainDashboard extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.id_dashboard_messages:
-                startActivity(new Intent(MainDashboard.this,Dashboard.class));
+//                startActivity(new Intent(MainDashboard.this,Dashboard.class));
                 break;
             case R.id.dashboard_notification:
-                startActivity(new Intent(MainDashboard.this,NotificationActivity.class));
+//                startActivity(new Intent(MainDashboard.this,NotificationActivity.class));
                 break;
             case R.id.dashboard_news:
-                startActivity(new Intent(MainDashboard.this,NewsActivity.class));
+//                startActivity(new Intent(MainDashboard.this,NewsActivity.class));
                 break;
         }
     }
