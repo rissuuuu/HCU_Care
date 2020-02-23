@@ -83,7 +83,7 @@
             android:weightSum="2">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/id_dashboard_messages"
+                android:id="@+id/id_doctors"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -117,7 +117,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dashboard_discussions"
+                android:id="@+id/id_appointments"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -158,7 +158,7 @@
             android:padding="10dp">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dashboard_news"
+                android:id="@+id/id_treatments"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -192,7 +192,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dashboard_notification"
+                android:id="@+id/id_searchmedicines"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -232,7 +232,7 @@
             android:padding="10dp">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dashboard_seekambulance"
+                android:id="@+id/id_ambulance"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -266,7 +266,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dashboard_ordermedicine"
+                android:id="@+id/id_emergency"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"

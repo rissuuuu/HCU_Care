@@ -8,7 +8,10 @@
             android:title="Change Password"
             app:showAsAction="ifRoom" />
         <item android:id="@+id/id_viewstatus"
-            android:title="View Status"
+            android:title="Appointment Status"
+            app:showAsAction="ifRoom" />
+        <item android:id="@+id/id_ambulancestatus"
+            android:title="Ambulance Status"
             app:showAsAction="ifRoom" />
         <item android:id="@+id/id_History"
             android:title="View History"

@@ -73,6 +73,7 @@
                     android:background="@drawable/uohlogorgb1"/>
             </LinearLayout>
                 <EditText
+                    android:inputType="textEmailAddress"
                     android:id="@+id/id_username"
                     android:textAlignment="center"
                     android:background="@drawable/butt_style"

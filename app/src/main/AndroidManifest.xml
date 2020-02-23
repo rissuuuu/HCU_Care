@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hcucare">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,14 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.hcucare.NotificationActivity" />
-        <activity android:name="com.example.hcucare.MainDashboard" />
-        <activity android:name="com.example.hcucare.SendPassword" />
-        <activity android:name="com.example.hcucare.ChangePassword" />
-        <activity android:name="com.example.hcucare.Dashboard" />
-        <activity android:name="com.example.hcucare.Login" />
-        <activity android:name="com.example.hcucare.NewsActivity"/>
-        <activity android:name="com.example.hcucare.MainActivity">
+        <activity android:name=".Ambulancestatus"></activity>
+        <activity android:name=".Ambulance" />
+        <activity android:name=".Appointmentstatus" />
+        <activity android:name=".AppointmentActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".MainDashboard" />
+        <activity android:name=".SendPassword" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".DoctorsActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

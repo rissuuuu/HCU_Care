@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     int time=1500;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
-    public static List<getmessages> listdata;
-    getmessages data;
+    public static List<getDoctors> listdata;
+    getDoctors data;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
         databaseReference.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                data=new getmessages();
-                data=dataSnapshot.getValue(getmessages.class);
+                data=new getDoctors();
+                data=dataSnapshot.getValue(getDoctors.class);
                 listdata.add(data);
             }
 

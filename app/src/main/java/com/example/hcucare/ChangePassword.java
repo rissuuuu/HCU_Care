@@ -60,6 +60,7 @@ public class ChangePassword extends AppCompatActivity {
     public void change(){
         FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
         if (user!=null){
+            Toast.makeText(getApplicationContext(),"User Verified", Toast.LENGTH_SHORT).show();
             user.updatePassword(newpw.getText().toString()).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
